@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>College Event Platform</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>College Event Platform</h1>
+<div class="form-switch">
+<button id="showRegister">Register</button>
+<button id="showLogin">Login</button>
+</div>
+<form id="registrationForm" class="form">
+<h2>Register</h2>
+Name: <input type="text" id="name" required><br>
+Username: <input type="text" id="username" required><br>
+Email: <input type="email" id="email" required><br>
+Password: <input type="password" id="password" required><br>
+<button type="submit">Register</button>
+</form>
+<form id="loginForm" class="form" style="display:none;">
+<h2>Login</h2>
+Username: <input type="text" id="loginUsername" required><br>
+Password: <input type="password" id="loginPassword" required><br>
+<button type="submit">Login</button>
+</form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
